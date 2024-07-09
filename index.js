@@ -1,3 +1,4 @@
+var prompt = require('prompt-sync')();
 function getStudentGrade() {
 
     let marks = parseInt(prompt("Enter student marks (0-100): "));
